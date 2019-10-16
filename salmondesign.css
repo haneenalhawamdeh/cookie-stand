@@ -1,7 +1,6 @@
 body{
-    color: black;
-    background-color: blueviolet;
-    background-image: url('https://thenypost.files.wordpress.com/2019/03/salmon.jpg?quality=90&strip=all&w=618&h=410&crop=1'
+    
+    background-image: url('https://www.biggerbolderbaking.com/wp-content/uploads/2019/06/Crazy-No-Bake-Cookies1-1024x682.jpg'
  );
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,9 +8,9 @@ body{
     font-size: x-large;
  }
  h1{
-    color: darkred;
+    color: rgb(75, 19, 19);
     text-align: center;
-    font-style: italic;
+    font-style: initial ;
  }
  table{
     font: x-large;
@@ -23,8 +22,8 @@ body{
  th{
     height: 50px;
     border-bottom: 1px solid #ddd;
-    border-bottom: 1px solid rgb(236, 8, 8);
+    border-bottom: 1px solid rgb(59, 16, 16);
  }
  td{
-    border-bottom: 1px solid rgb(236, 8, 8);
+    border-bottom: 1px solid rgb(59, 16, 16);
  }
