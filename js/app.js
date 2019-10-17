@@ -111,7 +111,20 @@ for (var i = 0; i < shops.length; i++) {
 }
 createFooterRow();
 
-
+// function submitHandler(event) {
+//  event.preventDefault();
+//  var locationName = event.target.location.value;
+//  var min = parseInt(event.target.min.value);
+//  var max = parseInt(event.target.max.value);
+//  var avgSales = parseFloat(event.target.avgSales.value);
+//  var newShop = new Shop(locationName, min, max, avgSales);
+//  shops.push(newShop);
+//  table.removeChild(footerRow);
+//  newShop.renderRow(table);
+//  createFooterRow();
+// }
+// var form = document.getElementById('addShopForm');
+// form.addEventListener('submit', submitHandler);
 
 
 
