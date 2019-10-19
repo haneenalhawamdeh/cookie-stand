@@ -109,7 +109,7 @@ createfooterRow();
 function submit (event) {
    
 event.preventDefault();
-var form = document.getElementById('addShopForm');
+var form = document.getElementById('newShopForm');
 var location= (form.elements.namedItem("Location").value);
 
 var minimum = parseInt(form.elements.namedItem("Minimum").value);
@@ -126,5 +126,5 @@ createfooterRow();
 }
 
 
-var form1 = document.getElementById('addShopForm');
+var form1 = document.getElementById('newShopForm');
 form1.addEventListener('submit', submit);
