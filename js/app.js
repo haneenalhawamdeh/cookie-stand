@@ -1,13 +1,13 @@
 var Hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm',
 '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
 var seattle = {
-Min: 23,
-Max: 65,
-Avg: 6.3,
+TheMin: 23,
+TheMax: 65,
+TheAv: 6.3,
 cookiesArray: [],
 Ramdom: function () {
-    var range = this.Max - this.Min;
-    var rand = Math.floor(Math.random() * range) + this.Min;
+    var range = this.TheMax - this.TheMin;
+    var rand = Math.floor(Math.random() * range) + this.TheMin;
     return rand;
 },
 amountOfCookiesPerHourFunction: function () {
