@@ -110,4 +110,4 @@ for (i = 0; i < 15; i++) {
 }
 document.write("<li>", "Total : ", count, " Cookies.");
 document.write("  </ul>");
-}
+} //h
